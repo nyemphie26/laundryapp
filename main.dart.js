@@ -73571,7 +73571,7 @@ return A.N($async$pN,r)},
 mB(a){return this.QZ(a)},
 QZ(a){var s=0,r=A.O(t.bo),q,p=2,o,n,m,l,k,j,i,h
 var $async$mB=A.P(function(b,c){if(b===1){o=c
-s=p}while(true)switch(s){case 0:i="https://dashboard.washpress.com.au/api/v1/login"
+s=p}while(true)switch(s){case 0:i="http://dashboard.codignore.com/api/v1/login"
 s=3
 return A.Z(A.kR(),$async$mB)
 case 3:p=5
@@ -73881,7 +73881,7 @@ F(a){return new A.FQ(B.a5b,B.a5c,A.a([A.N0(B.a5e,new A.a6u(a),null),A.N0(B.a58,n
 tg(a,b){return this.R_(a,b)},
 R_(a,b){var s=0,r=A.O(t.H),q=1,p,o,n,m,l,k,j,i
 var $async$tg=A.P(function(c,d){if(c===1){p=d
-s=q}while(true)switch(s){case 0:j="https://dashboard.washpress.com.au/api/v1/register"
+s=q}while(true)switch(s){case 0:j="http://dashboard.codignore.com/api/v1/register"
 q=3
 o=B.E.h1(b)
 l=t.N
@@ -74043,7 +74043,7 @@ o=B.h.k(14)
 n=$.lw
 m=t.N
 s=2
-return A.Z(A.vm(A.dE("https://dashboard.washpress.com.au/api/v1/schedules/"+p+"/"+o),A.al(["Content-Type","application/json","Authorization","Bearer "+n],m,m)),$async$wo)
+return A.Z(A.vm(A.dE("http://dashboard.codignore.com/api/v1/schedules/"+p+"/"+o),A.al(["Content-Type","application/json","Authorization","Bearer "+n],m,m)),$async$wo)
 case 2:l=b
 k=B.E.f0(0,A.fH(A.fF(l.e).c.a.h(0,"charset")).bI(0,l.w),null)
 if(l.b===200)q.W(new A.age(q,k))
@@ -74183,7 +74183,7 @@ return A.N($async$jl,r)},
 uU(a){return this.a5O(a)},
 a5O(a){var s=0,r=A.O(t.H),q=1,p,o=this,n,m,l,k,j,i,h,g
 var $async$uU=A.P(function(b,c){if(b===1){p=c
-s=q}while(true)switch(s){case 0:i="https://dashboard.washpress.com.au/api/v1/orders"
+s=q}while(true)switch(s){case 0:i="http://dashboard.codignore.com/api/v1/orders"
 h=$.lw
 q=3
 n=B.E.h1(a)
@@ -74219,7 +74219,7 @@ a8w(a){var s=0,r=A.O(t.N),q,p=this,o,n,m,l,k,j,i
 var $async$vL=A.P(function(b,c){if(b===1)return A.L(c,r)
 while(true)switch(s){case 0:o=$.lw
 n=B.d.a3(a*100)
-m=A.dE("https://dashboard.washpress.com.au/api/v1/create-checkout-page")
+m=A.dE("http://dashboard.codignore.com/api/v1/create-checkout-page")
 l=t.N
 k=A.al(["Content-Type","application/json","Authorization","Bearer "+o],l,l)
 s=3
@@ -74243,7 +74243,7 @@ return A.N($async$AK,r)},
 vM(){var s=0,r=A.O(t.N),q,p,o,n,m,l,k
 var $async$vM=A.P(function(a,b){if(a===1)return A.L(b,r)
 while(true)switch(s){case 0:p=$.lw
-o=A.dE("https://dashboard.washpress.com.au/api/v1/retrieve-checkout-page")
+o=A.dE("http://dashboard.codignore.com/api/v1/retrieve-checkout-page")
 n=t.N
 m=A.al(["Content-Type","application/json","Authorization","Bearer "+p],n,n)
 s=3
@@ -74413,7 +74413,7 @@ A.OB.prototype={
 tO(){var s=0,r=A.O(t.H),q=this,p
 var $async$tO=A.P(function(a,b){if(a===1)return A.L(b,r)
 while(true)switch(s){case 0:s=2
-return A.Z(A.vm(A.dE("https://dashboard.washpress.com.au/api/v1/category/"+q.a.c),null),$async$tO)
+return A.Z(A.vm(A.dE("http://dashboard.codignore.com/api/v1/category/"+q.a.c),null),$async$tO)
 case 2:p=b
 q.W(new A.ahm(q,B.E.bI(0,A.fH(A.fF(p.e).c.a.h(0,"charset")).bI(0,p.w))))
 return A.M(null,r)}})
@@ -74448,7 +74448,7 @@ return A.bi(A.a([o,new A.e6(B.df,r,B.b1,B.C,A.a([m,A.cY(A.b4(r,A.eR(!1,r,!0,A.bA
 ui(){var s=0,r=A.O(t.H),q=this,p
 var $async$ui=A.P(function(a,b){if(a===1)return A.L(b,r)
 while(true)switch(s){case 0:s=2
-return A.Z(A.vm(A.dE("https://dashboard.washpress.com.au/api/v1/categories"),null),$async$ui)
+return A.Z(A.vm(A.dE("http://dashboard.codignore.com/api/v1/categories"),null),$async$ui)
 case 2:p=b
 q.W(new A.aj5(q,B.E.bI(0,A.fH(A.fF(p.e).c.a.h(0,"charset")).bI(0,p.w))))
 return A.M(null,r)}})
@@ -74458,7 +74458,7 @@ var $async$wn=A.P(function(a,b){if(a===1)return A.L(b,r)
 while(true)switch(s){case 0:p=$.lw
 o=t.N
 s=3
-return A.Z(A.vm(A.dE("https://dashboard.washpress.com.au/api/v1/active_orders"),A.al(["Content-Type","application/json","Authorization","Bearer "+p],o,o)),$async$wn)
+return A.Z(A.vm(A.dE("http://dashboard.codignore.com/api/v1/active_orders"),A.al(["Content-Type","application/json","Authorization","Bearer "+p],o,o)),$async$wn)
 case 3:n=b
 m=B.E.f0(0,A.fH(A.fF(n.e).c.a.h(0,"charset")).bI(0,n.w),null)
 if(n.b===200){q=J.np(J.R(m,"data"),new A.ajc(),t.cM).dX(0)
@@ -74581,7 +74581,7 @@ var $async$tX=A.P(function(b,c){if(b===1)return A.L(c,r)
 while(true)switch(s){case 0:n=$.lw
 m=t.N
 s=3
-return A.Z(A.vm(A.dE("https://dashboard.washpress.com.au/api/v1/orders?page="+a),A.al(["Content-Type","application/json","Authorization","Bearer "+n],m,m)),$async$tX)
+return A.Z(A.vm(A.dE("http://dashboard.codignore.com/api/v1/orders?page="+a),A.al(["Content-Type","application/json","Authorization","Bearer "+n],m,m)),$async$tX)
 case 3:l=c
 k=B.E.f0(0,A.fH(A.fF(l.e).c.a.h(0,"charset")).bI(0,l.w),null)
 if(l.b===200){m=J.as(k)
@@ -74693,7 +74693,7 @@ return A.bi(A.a([s,A.b4(o,A.avC(new A.e6(B.Gb,o,B.b1,B.C,A.a([n,A.N0(A.ac("Updat
 xW(a){return this.agb(a)},
 agb(a){var s=0,r=A.O(t.z),q,p=2,o,n,m,l,k,j,i,h,g,f
 var $async$xW=A.P(function(b,c){if(b===1){o=c
-s=p}while(true)switch(s){case 0:h="https://dashboard.washpress.com.au/api/v1/profile/"+$.z2
+s=p}while(true)switch(s){case 0:h="http://dashboard.codignore.com/api/v1/profile/"+$.z2
 g=$.lw
 p=4
 n=B.E.h1(a)
@@ -74844,7 +74844,7 @@ tY(a){return this.Zl(a)},
 Zl(a){var s=0,r=A.O(t.j),q,p=this,o,n,m,l
 var $async$tY=A.P(function(b,c){if(b===1)return A.L(c,r)
 while(true)switch(s){case 0:s=3
-return A.Z(A.vm(A.dE("https://dashboard.washpress.com.au/api/v1/services?page="+a),null),$async$tY)
+return A.Z(A.vm(A.dE("http://dashboard.codignore.com/api/v1/services?page="+a),null),$async$tY)
 case 3:m=c
 l=B.E.f0(0,A.fH(A.fF(m.e).c.a.h(0,"charset")).bI(0,m.w),null)
 if(m.b===200){o=J.as(l)
